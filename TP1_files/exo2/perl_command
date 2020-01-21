@@ -1,0 +1,5 @@
+Question 1
+perl -0777 -pe 's/"[^"]"/CHAINE/gsm' q1
+
+Question 2
+perl -0777 -pe 's/"([^\\"]|\\.)*/CHAINE/gsm' q2
